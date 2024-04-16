@@ -11,9 +11,13 @@ Chatbot speech to speech using Ollama
 
 1. git clone this repo to any folder in your PC: https://github.com/hakemz91/ollama_speech_to_speech.git
 2. Create new anaconda environment and activate it using command below:
+   ```
    conda create -n ollama_speech_to_speech python=3.10 -y
+   ```
    then,
+   ```
    conda activate ollama_speech_to_speech
+   ```
 4. cd to dir ollama_speech_to_speech
 5. pip install -r requirements.txt
 6. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
