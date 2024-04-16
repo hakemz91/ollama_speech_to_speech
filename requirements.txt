@@ -1,0 +1,15 @@
+torch
+pyaudio
+torchaudio
+numpy
+SpeechRecognition
+faster-whisper
+sentence-transformers
+soundfile
+langid
+TTS
+pydub
+openai
+whisper-timestamped
+eng-to-ipa
+cn2an
