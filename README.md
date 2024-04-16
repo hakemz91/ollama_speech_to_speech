@@ -28,5 +28,6 @@ Chatbot speech to speech using Ollama
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract content of checkpoints.zip to ollama_speech_to_speech folder
 9. In talk3.py , change the path of joa.mp3 in line 247 to your path. Use forward slash.
-10. run talk3.py
+10. In talk3.py too, change the model name in line 131 from dolunc to any model you have pulled from ollama. For example you can change to dolphin-mistral if you have already pulled that model from ollama.
+11. run talk3.py and enjoy. You can change the system prompt by changing it in chatbot2.txt file.
 
