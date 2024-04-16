@@ -19,9 +19,14 @@ Chatbot speech to speech using Ollama
    conda activate ollama_speech_to_speech
    ```
 4. cd to dir ollama_speech_to_speech
-5. pip install -r requirements.txt
-6. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-7. extract checkpoints.zip to ollama_speech_to_speech folder
-8. In talk3.py , change the path of joa.mp3 in line 247 to your path. Use forward slash.
-9. run talk3.py
+5. ```
+   pip install -r requirements.txt
+   ```
+6. ```
+   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+   ```
+7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+8. extract content of checkpoints.zip to ollama_speech_to_speech folder
+9. In talk3.py , change the path of joa.mp3 in line 247 to your path. Use forward slash.
+10. run talk3.py
 
